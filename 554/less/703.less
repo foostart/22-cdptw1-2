@@ -1,0 +1,340 @@
+.type-703 {
+    @display: inline-block;
+    @border: 1px solid #e0e0e0;
+    @max-width: 100%;
+    @cursor: pointer;
+    @color: #ccc;
+    @color6: #666;
+    @text-align: center;
+    @margin-left: 15px;
+    @font-family: LMRomanCaps10-Regular;
+    @display2:none;
+    @transition: all .2s ease-in-out;
+    @position_absolute: absolute;
+    @transition_03s: 0.3s;
+    @margin_left10px: 10px;
+    @float_left: left;
+    @background_white: #FFF;
+    @color_C5988B: #C5988B;
+    @margin_bottom_15: 15px;
+    @list_style_none: none;
+    @padding_7_15: 7px 15px;
+    @background-color: #7a7975;
+    @color_white: #fff;
+    @text-transform_upper: uppercase;
+    @background_e17365: #e17365;
+    @margin_top10: 10px;
+    @margin_top_15: 15px;
+    @transition_05s: 0.5s;
+    @width: 100%;
+    
+    .btn-up-down {
+        display: @display;
+    }
+    .tab-images-video {
+        max-width: @max-width;
+    }
+    .margin-padding {
+        margin: 0;
+        padding: 0;
+    }
+    .trans {
+        transition: @transition;
+    }
+    .state-name {
+        color: @color6;
+    }
+    .active-section-list {
+        display: @display;
+    }
+    .info {
+        display: @display;
+    }
+
+    .product {
+        .items {
+            img {
+                max-width: @max-width;
+                border: @border;
+                cursor: crosshair;
+            }
+        }
+
+        .thumbs-list {
+            border-right: @border;
+            margin-top: -8px;
+            img {
+                border: @border;
+                margin-top: 8px;
+                margin-bottom: 7px;
+                max-width: 84.2%;
+                cursor: @cursor;
+            }
+            #btn-down {
+                opacity: 0;
+                position: @position_absolute;
+                top: 600px;
+            }
+            #hide {
+                display: @display2;
+            }
+            #btn-up {
+                margin-top: 9px;
+            }
+            .btn-move {
+                background: #e6e5e5;
+                padding: 5px;
+                border-radius: 50%;
+                position: @position_absolute;
+                left: 48px;
+                cursor: @cursor;
+                border: @border;
+            }
+            .btn-move:hover {
+                color:#e17365;
+            }
+        }
+
+        .title {
+            h4 {
+                color: #666;
+                font-family: LMRoman10Regular;
+                font-size: 25px;
+            }
+
+            .color-star {
+                color: @color;
+            }
+        }
+
+        .state {
+            .state-name;
+            .name {
+                .state-name;
+            }
+        }
+        .tab-title {
+            margin-top: 20px;
+            cursor: @cursor;
+            .active-tab {
+                background: @background_white;
+            }
+            h4 {
+                padding: 0 8px 0 10px;
+                line-height: 26px;
+                color: @color6;
+                background: #e0e0e0;
+                display: @display;
+                font-size: 14px;
+                border: @border;
+                border-bottom: none;
+                margin: 0 2px 0 0;
+            }
+        }
+        .active-section {
+            .active-section-list;
+        }
+        .attributes {
+            margin-top: 30px;
+
+            .attribute-list {
+                .active-section-list;
+                margin-right: 10px;
+
+            }
+            p {
+                margin-top: @margin_top10;
+                padding-bottom: 20px;
+
+            }
+            .price {
+                h5 {   
+                    font-size: 24px;
+                    line-height: 1px;
+                    float: @float_left;
+                    color: @color_C5988B;
+                    font-weight: normal;
+                    margin-right: 20px;
+                    font-family: Georgia;
+                }
+                .btn-add {
+                    text-transform: @text-transform_upper;
+                    padding: 12px 25px;
+                    background-color: @background-color;
+                    color: #ffffff;
+                    .trans;
+                    text-decoration: none;
+                }
+                .btn-add:hover {
+                    background-color: #e1423c;
+                    .trans;
+                }
+            }
+        }
+        label {
+            margin-right: 5px;
+            color: @color6;
+            font-weight: normal;
+        }
+
+    }
+    .purchase-item {
+        .thumb-img-carousel img {
+            border: @border;
+            cursor: @cursor;
+            display: @display;
+            width: 90%;
+            margin-left: @margin_left10px;
+        }
+    }
+    .button  {
+        position: @position_absolute;
+        top: 50%;
+        left: 2px;
+        margin-top: @margin_top_15;
+        width: 24px;
+        height: 24px;
+        cursor: @cursor;
+        border: @border;
+        box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+        transition: @transition_03s;
+        .fa {
+            width: 15px;
+            height: 15px;
+            margin-top: 5px;
+            text-align: @text-align;
+            margin-left: 5px;
+        }
+    }
+    .button:hover {
+        background: @background-color;
+        box-shadow: 0 0 0 1px #e17365, 0 0 0 2px #e17365;
+        color: @color_white;
+        border: 1px solid rgba(255,255,255,0.2);
+        transition: @transition_03s;
+    }
+    .btn-move-left{
+        margin-left: @margin-left;
+    }
+    .btn-move-right {
+        position: @position_absolute;
+        left: 95%;
+    }
+    .box-cart {
+        margin-top: 25px;
+        border-top: 1px solid #e0e0e0;
+        padding-top: 10px;    
+        .social {
+            margin-left: @margin_left10px;
+            float: @float_left;
+            margin-right: 35px;
+        }
+        .wishlist {
+            text-decoration: none;
+            color: @color6;
+        }
+    }
+    .tab-title {
+        font-family: @font-family;   
+    }
+    ul.tab {
+        list-style: @list_style_none;
+        .margin-padding;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        background-color: #f1f1f1;
+        li {
+            float: @float_left;
+
+            a {
+                display: @display;
+                color: black;
+                text-align: @text-align;
+                padding: 10px 11px;
+                text-decoration: none;            
+                font-size: 1.1em;
+            }
+
+        }
+    }
+
+    .active {
+        background-color: @color_white;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: @display2;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        background: @background_white;
+    }
+
+    #data-sheet {
+        td {
+            padding: 9px 10px;
+        }
+    }
+
+    #accessories {
+        text-align: @text-align;
+        img {
+            max-width: @max-width;
+            border: @border;
+        }
+        h3 {
+            white-space: nowrap;
+            font-size: 19px;
+        }
+        h5 {
+            font-size: 18px;
+            color: @color_C5988B;
+            margin-bottom: @margin_bottom_15;
+        }
+        .btn-add-to-cart {
+            background: #7a7975;
+            color:@color_white;
+            padding: @padding_7_15;
+            margin-top: @margin_top_15;
+            transition: @transition_05s;
+        }
+        .btn-add-to-cart:hover {
+            background: @background_e17365;
+            transition: @transition_05s;
+        }
+        ul {
+            display: @display;
+            list-style: @list_style_none;
+            .margin-padding;
+            margin-bottom: @margin_bottom_15;
+        }
+    }
+    #comment {
+        .thumb-comment {
+            a {
+                margin-left: 170px;
+                padding: @padding_7_15;
+                line-height: 16px;
+                background-color: @background-color;
+                color: @color_white;
+                text-transform: @text-transform_upper;
+                transition: @transition_05s;    
+
+            }
+            a:hover {
+                background: @background_e17365;
+            }
+            .star-color {
+                color: @color;
+            }
+            p {
+                padding-bottom: 10px;
+            }
+            margin-top: @margin_top10;
+            border-bottom: 1px dotted #ccc;
+        }
+    }
+  
+}

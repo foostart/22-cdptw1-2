@@ -1,0 +1,22 @@
+.type-16 a {
+  text-decoration: none;
+}
+.type-16 .background-footer {
+  background-color: #f3f3f3;
+}
+.type-16 .footer {
+  color: #888888;
+}
+.type-16 .footer .twitter-title .twitter-item {
+  border-color: #dddddd;
+  background: #ffffff;
+}
+.type-16 .footer .sub-test {
+  padding: 4px 0px 0px 3px;
+}
+.type-16 .footer .text .title {
+  color: #3c2e25;
+}
+.type-16 li {
+  list-style: none;
+}
