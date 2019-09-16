@@ -5,6 +5,9 @@
   padding-right: 15px;
   z-index: 1000;
 }
+.type-881 .megamenu .icon-bar {
+  background-color: #000;
+}
 .type-881 .megamenu .navbar {
   border-radius: 0px;
 }
