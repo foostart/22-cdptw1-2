@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php
 
 	$url_host = 'http://'.$_SERVER['HTTP_HOST'];
@@ -18,21 +18,22 @@
 	 $less->compileFile('less/700.less', 'css/700.css');
 
 ?>
-
-    <html>
+<!DOCTYPE html>
+    <html lang="en">
 
     <head>
-        <title>TODO supply a title</title>
+        <title>title-551</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/700.css" rel="stylesheet" type="text/css" />
+        <script src="<?php echo $url_path ?>/js/jquery-1.11.0.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/script.js"></script>
     </head>
-
     <body>
-
         <?php include $dir_block.'/551-content.php'; ?>
     </body>
 
-    </html>
+</html>

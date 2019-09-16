@@ -1,3 +1,12 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+?>
 <div class="zaro">
     <div id="white_background" class="slidelip">
         <div id="pattent">
@@ -18,7 +27,7 @@
                                             <li>Men Collection</li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="<?php echo $url_path ?>/images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </li>
 
@@ -80,7 +89,7 @@
                                     </li>
                                     <li class="col-md-10 col-sm-10 ">
                                         <a>
-                                            <img src="<?php echo $url_path ?>/images/banner-bottom.jpg" alt="">
+                                            <img src="./images/banner-bottom.jpg" alt="">
                                         </a>
                                     </li>
                                 </ul>
@@ -95,7 +104,7 @@
                                         <ul class="first-item">
                                             <li>
                                                 <a href="#">
-                                                    <img src="<?php echo $url_path ?>/images/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/banner-left.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </li>
                                         </ul>
@@ -147,7 +156,7 @@
                                             <li>Men Collection</li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="<?php echo $url_path ?>/images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </li>
 
@@ -180,22 +189,22 @@
                                         <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo $url_path ?>/images/mic01.png" alt="">
+                                        <img src="./images/mic01.png" alt="">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo $url_path ?>/images/mic02.png" alt="">
+                                        <img src="./images/mic02.png" alt="">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo $url_path ?>/images/mic03.png" alt="">
+                                        <img src="./images/mic03.png" alt="">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo $url_path ?>/images/mic04.png" alt="">
+                                        <img src="./images/mic04.png" alt="">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
@@ -208,40 +217,40 @@
                                 <a href="#" class="opener"></a>
                                 <ul class="container margin-auto dropdown-menu mega-dropdown-menu">
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo $url_path ?>/images/4-manu_alysum.jpg" alt="">
+                                        <img src="./images/4-manu_alysum.jpg" alt="">
                                     </li>
                                 </ul>
                             </li>
@@ -271,6 +280,3 @@
         </div>
     </div>
 </div>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
