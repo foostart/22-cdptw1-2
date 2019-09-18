@@ -1,6 +1,4 @@
-
 <?php
-
 	$url_host = 'http://'.$_SERVER['HTTP_HOST'];
 	$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 	$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -19,8 +17,7 @@
 
 ?>
 <!DOCTYPE html>
-    <html lang="en">
-
+<html lang="en">
     <head>
         <title>title-551</title>
         <meta charset="UTF-8">

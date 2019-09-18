@@ -8,6 +8,26 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="zaro">
+    <div class="container">
+        <div class="top-header">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input placeholder="Cart: (emty)" type="text" class="form-control input-lg ">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h1>Alysum</h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input id="search" placeholder="Search" type="text" class="form-control input-lg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div id="white_background" class="slidelip">
         <div id="pattent">
             <!--MEGA MENU-->
@@ -27,7 +47,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li>Men Collection</li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg"
+                                                        class="img-responsive" alt="product 1">
                                                 </a>
                                             </li>
 
@@ -104,7 +125,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <ul class="first-item">
                                             <li>
                                                 <a href="#">
-                                                    <img src="./images/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/banner-left.jpg" class="img-responsive"
+                                                        alt="product 1">
                                                 </a>
                                             </li>
                                         </ul>
@@ -156,14 +178,15 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <li>Men Collection</li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="./images/dress-anna-sui-ambrosia-lace.jpg"
+                                                        class="img-responsive" alt="product 1">
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a href="#">View all Collection 
+                                                <a href="#">View all Collection
 
-                                                        </a>
+                                                </a>
                                             </li>
                                         </ul>
                                     </li>
@@ -185,28 +208,33 @@ $url_path = str_replace('\\', '/', $url_path);
 
                                 <ul class="container margin-auto dropdown-menu mega-dropdown-menu">
                                     <li class="align-center full-width">
-                                        <h2>Alysum -  is the universal theme, with the pleasant and clean design.</h2>
-                                        <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
+                                        <h2>Alysum - is the universal theme, with the pleasant and clean design.</h2>
+                                        <p>With this theme you can easily create your unique shop, choosing any colors &
+                                            over 500 Google fonts. </p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
                                         <img src="./images/mic01.png" alt="">
                                         <h4>Responsive design</h4>
-                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small
+                                            cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
                                         <img src="./images/mic02.png" alt="">
                                         <h4>Responsive design</h4>
-                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small
+                                            cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
                                         <img src="./images/mic03.png" alt="">
                                         <h4>Responsive design</h4>
-                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small
+                                            cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
                                         <img src="./images/mic04.png" alt="">
                                         <h4>Responsive design</h4>
-                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small
+                                            cell phones.</p>
                                     </li>
                                 </ul>
                             </li>

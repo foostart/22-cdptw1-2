@@ -1,30 +1,10 @@
-    @background_body: #ebebeb;
-    @color_body: #666;  
-body {
-    background: @background_body;
-    padding-top: 36px;
-    margin:0;
-}
-a, body {
-    color: @color_body;
-} 
-body, html {
-    height: 100%;
-    min-height: 100%;
-}
-.container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-.zaro{  
 
+.zaro{  
     @color_a: #333;
     @white_background: #f9f9f9;
     @mega-menu_background: url(../images/border.gif) repeat-x 0 100%;
     @color_mega_menu_li_a: #3a3a3c;
-    @mega-active_background: #009900;
+    @mega-active_background: #e85555;
     @color_span: #930;
     .span{
     content: "";
@@ -35,6 +15,19 @@ body, html {
     width: 100%;
     background-color: @mega-active_background;
 }
+.top-header{
+    padding-top: 20px;
+    h1{
+        text-align: center;
+        position: relative;
+        font-size: 80px;
+        top: -4.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    
+}   
+
 .margin_padding{
     margin:0;
     padding:0;
@@ -45,10 +38,6 @@ body, html {
     h4, h4 a {
         font-size: 20px;
         line-height: 28px;
-    }
-
-    div,form{
-        .margin_padding
     }
     img{
         border:0;
@@ -66,7 +55,6 @@ body, html {
     a{
         transition: all .2s ease-in-out;
     }
-
 
     #white_background{
         background-color: @white_background;
@@ -270,7 +258,13 @@ body, html {
 }
 @media(min-width: 980px){
     .zaro{
-
+        .top-header{
+            padding-top: 20px;
+            h1{
+                position: relative;
+               
+            }
+        }
         .mega-menu{
             .mega-menu-item{ 
                 a.menu-item{
@@ -280,6 +274,7 @@ body, html {
         }
         
     }
+    
 }
 @media(min-width: 1170px){
     .zaro{
@@ -303,12 +298,27 @@ body, html {
 }
 @media (max-width: 979px) and (min-width: 728px){
     .zaro{
-        //MEGA MENU
+        .top-header{
+            padding-top: 20px;
+            h1{
+                position: relative;
+                top: 0;
+            }
+            
+        }
 
     }
 }
 
 @media (max-width: 979px) and (min-width: 728px){
+    .top-header{
+        padding-top: 20px;
+        h1{
+            position: relative;
+            top: 0;
+        }
+        
+    }  
 }
 @media (max-width: 727px){
     .zaro{
@@ -339,6 +349,14 @@ body, html {
 @mobileMega-menu-item_border-top:1px solid  #fbfbfb;
 @media (max-width: 727px){
     .zaro{
+        .top-header{
+            padding-top: 20px;
+            h1{
+                position: relative;
+                top: 0;
+            }
+            
+        }  
         .menu-container{
             a.opener {
                 visibility: visible;
@@ -445,16 +463,21 @@ body, html {
 }
 
 @media screen and (max-width: 1024px) {
+    
 }
     /*Ipad dọc(768 x 1024)*/
 @media screen and (max-width: 768px) {
+    
   
 }
     /*Tablet nhỏ(480 x 640)*/
     @media screen and (max-width: 480px) {
+       
         
 }
     /*Iphone(480 x 640)*/
-    @media screen and (max-width: 320px) {}
+    @media screen and (max-width: 320px) {
+        
+    }
     /*Smart phone nhỏ*/
     @media screen and (max-width: 240px) {}
