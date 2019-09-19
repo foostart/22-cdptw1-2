@@ -1,7 +1,7 @@
 
 
 .type-36{
-	@background-header:#e5e5e5;
+	@background-header:#F8F9FA;
 	@color-header:#ff7f00;
 	@color-fa:#ff7f00;
 	@color-a:#000;
@@ -9,8 +9,9 @@
 	@color-title2:#ff7f00;
 	
     .header{
+        padding-top: 5px;
         background: @background-header;
-    }
+    }   
 
     h2{
         font-size: 18px;
@@ -59,9 +60,10 @@
             background: @color-title2;
         }
         h2{
+            margin-top: 20px;
             float: left;
             border: 1px solid @color-title;
-            padding: 9.5px 30px;
+            padding: 9.3px 30px;
         }
 
     }
@@ -84,105 +86,70 @@
             margin-top: 5px;
         }
     }
-
     .menu{
-        padding: 12px;
-        background: #e5e5e5;
-        .home{
-            color: #ff7f00;
+       ul li{
+        padding-left: 25px;
+        padding-right: 25px;
+       }
+        
+    }
+    .text{
+        .text1{
+            background: #2e6da4;
+            border: 1px solid #ff7f00;
+            padding: 20px 20px;
         }
-        ul{
-
-            list-style: none;
-
-            li{
-                margin-left: 6%;
-                float: left;
-
-
-                a{
-                    font-weight: bold;
-                    color: black;
-                    font-size: 18px;
-                    text-decoration: none;
-                }
-            }
+        .text2{
+            background: #2e6da4;
+            border: 1px solid #ff7f00;
+            padding: 20px 20px;
         }
-		a:hover 
-		{
-			color :#ff7f00;
-		}
-
+        
     }
 
+    
  
      /*media*/
     @media screen and (max-width: 992px) {
-        .menu{
-            width: 100%;
-        }
-
+       
+       
     }
 
     @media screen and (min-width: 448px )and (max-width: 484px ) {
-        .menu ul {
-
-            padding-left: 5px;
-        }
+        
 
     }
 
     @media screen and (max-width: 767px) {
-
-        .menu{
-            width: 100%;
-
-        }
         .title2 {
 
             margin-top: -70px;
             float: right;
         }
-
-        .menu ul li a {
-            font-weight: bold;
-            color: black;
-            font-size: 15px;
-            margin-left: -10px;
+        #collapsibleNavId{
+            position: absolute;
+            background: #F8F9FA;
+            top: 3.5rem;
+            z-index: 1;
+            left: 0;
+            width: 100%;
         }
+        
 
-
-
-
+      
+        
     }
     @media screen and (max-width: 446px){
-       .menu ul {
-
-            padding-left: 0px;
-
-        }
-        .menu ul li {
-            margin-left: 5%;
-
-        }
+       
     }
     @media screen and (max-width: 470px) {
-        .header_contai2 {
-            text-align: center;
-            font-size: 12px;
-        }
+       
 
     }
 
     @media screen and (max-width: 567px) {
-        .title2 {
-
-            margin-top: -70px;
-            float: right;
-        }
-
+       
     }
-
 
 }
 
