@@ -13,13 +13,12 @@
 	}
 
 	$less = new lessc;
-	 $less->compileFile('less/700.less', 'css/700.css');
-
+	$less->compileFile('less/700.less', 'css/700.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>title-551</title>
+        <title>551</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

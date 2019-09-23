@@ -111,22 +111,22 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <div class="col-sm-3">
-                                                    <img src="<?php echo $url_path ?>/images/blog4_1024x1024.jpg" alt="">
+                                                    <img src="./images/blog4_1024x1024.jpg" alt="">
                                                     <div class="blog-title"><a href="#">Best Makeup Secrets & Looks For A Date Night. Look romnantic.</a></div>
                                                     <p>We’ve collected all our knowledge to deliver you only the best organic, biodynamic, natural, wild-harvested cosmetology brands in the world....</p>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <img src="<?php echo $url_path ?>/images/blog3_1024x1024.jpg" alt="">
+                                                    <img src="./images/blog3_1024x1024.jpg" alt="">
                                                     <div class="blog-title"><a href="#">Our goal is to help you stay healthy as well as gorgeous at the same time</a></div>
                                                     <p>Soon you’ll discover how it is possible to use organic cosmetics for your body. We’ve collected all our knowledge to...</p>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <img src="<?php echo $url_path ?>/images/blog2_acd99a2d-64fd-4b59-96f8-30a9bdf42653_1024x1024.jpg" alt="">
+                                                    <img src="./images/blog2_acd99a2d-64fd-4b59-96f8-30a9bdf42653_1024x1024.jpg" alt="">
                                                     <div class="blog-title"><a href="#">Also you can always contact our consultants!</a></div>
                                                     <p>Organic cosmetics contact our consultants We’ve collected all our knowledge to deliver you only the best organic, biodynamic, natural, wild-harvested...</p>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <img src="<?php echo $url_path ?>/images/blog1_00643b2b-1226-4ebf-9508-967dd3f30ebd_1024x1024.jpg" alt="">
+                                                    <img src="./images/blog1_00643b2b-1226-4ebf-9508-967dd3f30ebd_1024x1024.jpg" alt="">
                                                     <div class="blog-title"><a href="#">Our company advocates the postulate that the health is the biggest value in o...</a></div>
                                                     <p>Also you can always contact our consultants! Our goal is to satisfy all our clients despite of their age, gender...</p>
                                                 </div>
@@ -141,7 +141,7 @@
 
                                     <ul class="dropdown-menu mega-dropdown-menu">
                                         <li class="col-20 sell-product">
-                                            <img src="<?php echo $url_path ?>/images/borghese_b_moisture_advanced_care_lipcolour_1_large.png" alt="">
+                                            <img src="./images/borghese_b_moisture_advanced_care_lipcolour_1_large.png" alt="">
                                             <div class="product-name"><a href="#">BORGHESE B MOISTURE ADVANCED CARE LIPCOLOUR</a></div>
                                             <span>Nails</span><br>
                                             <span class="price">$30.00</span><br>
@@ -152,7 +152,7 @@
                                             </button>
                                         </li>
                                         <li class="col-20 sell-product">
-                                            <img src="<?php echo $url_path ?>/images/loreal_paris_advanced_revitalift_face_and_neck_day_cream_1_large.png" alt="">
+                                            <img src="./images/loreal_paris_advanced_revitalift_face_and_neck_day_cream_1_large.png" alt="">
                                             <div class="product-name"><a href="#">LOREAL PARIS ADVANCED REVITALIFT FACE AND NECK ...</a></div>
                                             <span>Face</span><br>
                                             <span class="price">From $19.00</span>
@@ -163,7 +163,7 @@
                                             </button>
                                         </li>
                                         <li class="col-20 sell-product">
-                                            <img src="<?php echo $url_path ?>/images/nivea_body_creme_13_5_ounce_1_large.png" alt="">
+                                            <img src="./images/nivea_body_creme_13_5_ounce_1_large.png" alt="">
                                             <div class="product-name"><a href="#">NIVEA BODY CREME 13 5 OUNCE MOISTURE CREAM 15cc</a></div>
                                             <span>Eyes</span><br>
                                             <span class="price">$26.00</span>
@@ -174,7 +174,7 @@
                                             </button>
                                         </li>
                                         <li class="col-20 sell-product">
-                                            <img src="<?php echo $url_path ?>/images/olay_complete_all_day_uv_moisture_cream_spf_15_1_large.png" alt="">
+                                            <img src="./images/olay_complete_all_day_uv_moisture_cream_spf_15_1_large.png" alt="">
                                             <div class="product-name"><a href="#">OLAY COMPLETE ALL DAY UV MOISTURE CREAM SPF 15</a></div>
                                             <span>Tools & Accessories</span><br>
                                             <span class="price">From $12.00</span>
@@ -185,7 +185,7 @@
                                             </button>
                                         </li>
                                         <li class="col-20 sell-product" style="border: none">
-                                            <img src="<?php echo $url_path ?>/images/olay_complete_daily_defense_all_day_moisturizer_with_sunscreen_spf30_sensitive_skin_1_large.png" alt="">
+                                            <img src="./images/olay_complete_daily_defense_all_day_moisturizer_with_sunscreen_spf30_sensitive_skin_1_large.png" alt="">
                                             <div class="product-name"><a href="#">OLAY COMPLETE DAILY DEFENSE ALL DAY MOISTURIZER...</a></div>
                                             <span>Face</span><br>
                                             <span class="price">From $12.00</span>

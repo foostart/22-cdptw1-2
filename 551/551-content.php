@@ -35,6 +35,15 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="container margin-auto">
                     <div class="mega-menu">
                         <div class="mobileMenuTitle">Menu</div>
+                        <div class="navbar-header">
+                        <!-- <h2 class="mb-title">Cosmetorix</h2> -->
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- <h2 class="mb-title">Cosmetorix</h2> -->
+                        </div>
                         <ul class="mega-menu-ul">
                             <li class="dropdown mega-menu-item mega-active">
                                 <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">
@@ -289,9 +298,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </a>
                                 <a href="#" class="opener"></a>
                                 <ul class="dropdown-menu mega-dropdown-menu demos">
-                                    <li><a>Demo 01 - Alysum</a></li>
-                                    <li><a>Demo 01 - Alysum</a></li>
-                                    <li><a>Demo 01 - Alysum</a></li>
                                     <li><a>Demo 01 - Alysum</a></li>
                                     <li><a>Demo 01 - Alysum</a></li>
                                     <li><a>Demo 01 - Alysum</a></li>
