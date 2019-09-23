@@ -9,10 +9,11 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-550">
     <div class="header">
-        <div class="navbar-wrapper navbar-wrapperBig"><div class="ct-topBar text-center">
-                <div class="container">
+        <div class="navbar-wrapper navbar-wrapperBig">
+            <div class="container">
+                <div class="ct-topBar text-center">
                     <ul class="ct-panel--user list-inline text-uppercase pull-left">
-                        <li><a href="#" >login<i class="fa fa-lock"></i></a></li>
+                        <li><a href="#">login<i class="fa fa-lock"></i></a></li>
                         <li><a href="#">sign up<i class="fa fa-user"></i></a></li>
                     </ul>
                     <div class="ct-widget--group pull-right">
@@ -24,112 +25,107 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                     <div class="clearfix"></div>
                 </div>
-            </div><nav class="navbar navbar-default navbar-parts yamm  animatedHeadroom" >
-                <div class="navbar-headerTop">
-                    <div class="container">
-                        <div class="btn-group pull-left">
-                            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-bars"></i> Browse Courses
-                            </button>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">HTML</a></li>
-                                <li><a href="#">CSS</a></li>
-                                <li><a href="#">JS</a></li>
-                            </ul>
-                        </div>
-                        <div class="navbar-header">
-                            <a href="#"><img src="images/demo-content/logo.png" alt="logo"></a>
-                        </div>
-                        <div class="pull-right ct-searchInput--icon">
-                            <div class="form-group">
-                                <input id="search" placeholder="Search for Courses" required="" type="text" class="form-control input-lg ">
-                            </div>
-                            <button type="submit" class="ct-search-button"><i class="fa fa-search"></i></button>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown yamm-fw"><a href="#">Home</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="yamm-content">
-                                        <a href="#">Home Page V1</a>
-                                        <a href="#">Home Page V2</a>
-                                        <a href="#">Home Page V3</a>
-                                        <a href="#">Home Page V4</a>
-                                        <a href="#">Home Page V5</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown yamm-fw"><a href="#">Courses</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="yamm-content">
-                                        <a href="#">List of Courses - inline</a>
-                                        <a href="#">Single Course V1</a>
-                                        <a href="#">Single Course V2</a>
-                                        <a href="#">Single Course V3</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown yamm-fw active"><a href="#">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="yamm-content">      
-                                        <a class="active" href="#">List of Members</a>
-                                        <a href="#">Single Member V1</a>
-                                        <a href="#">Single Member V2</a>
-                                        <a href="#">Gallery V1</a>
-                                        <a href="#">Gallery V5</a>  
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown yamm-fw">
-                            <a href="#">Features</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="yamm-content">
-                                        <ul class="list-unstyled">
-                                            <li><a href="#"><i class="fa fa-fw fa-th"></i> Grid System</a></li>
-                                            <li><a href="#"><i class="fa fa-fw fa-font"></i> Typography</a></li>
-                                            <li><a href="#"><i class="fa fa-fw fa-link"></i> Buttons</a></li>
-                                            <li><a href="#"><i class="fa fa-fw fa-align-justify"></i> Forms</a></li>
-                                            <li><a href="#"><i class="fa fa-fw fa-table"></i> Tables</a></li>
-                                            <li><a href="#"><i class="fa fa-fw fa-navicon"></i> Sliders</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
         </div>
-    </div>
-    <div>
-        <div class="ct-site--map ct-u-backgroundGradient">
+        <div class="row navbar-headerTop">
             <div class="container">
-                <div class="ct-u-displayTableVertical text-capitalize">
-                    <div class="ct-u-displayTableCell">
-                        <span class="ct-u-textBig">
-                            Professors
-                        </span>
+                <div class="col-md-4 col-sx-4 put-left">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bars"></i> Browse Courses
+                        </button>
                     </div>
-                    <div class="ct-u-displayTableCell text-right">
-                        <span class="ct-u-textNormal ct-u-textItalic">
-                            <a href="#">Home</a> / <a href="#">Member</a>
-                        </span>
+                </div>
+                <div class="col-md-4 col-sx-4  put-center">
+                    <div class="navbar-header">
+                        <a href="#"><img src="images/demo-content/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sx-4 put-right">
+                    <div class="ct-searchInput--icon">
+                        <div class="custom-file">
+                            <input type="text" class="custom-file-input" id="customFile"
+                                placeholder="Search for Coures">
+                            <label class="custom-file-label" for="customFile"><i class="fa fa-search"></i></label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
     </div>
-
 </div>
-
