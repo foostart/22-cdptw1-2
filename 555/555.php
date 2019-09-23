@@ -24,10 +24,9 @@
     <head>
         <title>555</title>
         <meta charset="utf-8" />
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/555.css" rel="stylesheet" type="text/css" />
-
         <script src="<?php echo $url_path ?>/js/jquery-3.3.1.slim.min.js"></script>
         <script src="<?php echo $url_path ?>/js/popper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
