@@ -37,6 +37,9 @@
   display: block;
   font-size: 20px;
 }
+.type-550 .text-center ul li a {
+  text-decoration: none;
+}
 .type-550 .navbar-headerTop {
   border-top: 1px solid #E6ECF2;
   background-color: #fff;
@@ -88,6 +91,18 @@
 .type-550 .navbar-headerTop .btn i {
   margin-right: 10px;
 }
+.type-550 .dropdown {
+  font-size: 20px;
+}
+.type-550 .dropdown .active {
+  color: #82B540;
+}
+.type-550 .dropdown .active a:hover {
+  color: #82B540;
+}
+.type-550 .dropdown-menu {
+  background: #82b540;
+}
 @media (min-width: 480px) {
   .type-550 .ct-topBar {
     font-size: 16px;
@@ -114,7 +129,7 @@
   }
   .type-550 .ct-topBar ul li a {
     border-left: 1px solid #dbe4ed;
-    padding: 8px 0;
+    padding: 10px 0;
   }
   .type-550 .ct-topBar ul li:last-child a {
     border-left: 1px solid #dbe4ed;

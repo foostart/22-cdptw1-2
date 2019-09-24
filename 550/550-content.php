@@ -70,9 +70,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
+                        <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu sm-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
@@ -81,9 +81,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
+                        <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu sm-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
@@ -92,9 +92,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <ul class="dropdown-menu">
+                        <li class="dropdown dmenu">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu sm-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
@@ -103,9 +103,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
+                        <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu sm-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
@@ -114,9 +114,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
+                        <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu sm-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
