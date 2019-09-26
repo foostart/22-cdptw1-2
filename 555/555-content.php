@@ -49,16 +49,12 @@ $url_path = str_replace('\\', '/', $url_path);
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                        <li class="nav-item dropdown dmenu">
+                        <li class="nav-item dropdown dmenu ">
                             <a class="nav-link" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false" style="color: #ff7f00;">HOME</a>
-                            <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>  
                         </li>
                         <li class="nav-item dropdown dmenu">
-                            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">SHOP</a>
                             <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#">Action 1</a>
@@ -66,7 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </li>   
                         <li class="nav-item dropdown dmenu">
-                            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">WOMEN'S</a>
                             <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#">Action 1</a>
@@ -74,7 +70,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </li>
                         <li class="nav-item dropdown dmenu">
-                            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">MEN'S</a>
                             <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#">Action 1</a>
@@ -84,26 +80,14 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="nav-item dropdown dmenu">
                             <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">PACES</a>
-                            <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
                         </li>
                         <li class="nav-item dropdown dmenu">
                             <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">FEATURE</a>
-                            <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
                         </li>
                         <li class="nav-item dropdown dmenu">
                             <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">BLOG</a>
-                            <div class="dropdown-menu sm-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
                         </li>
 
                     </ul>

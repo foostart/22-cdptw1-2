@@ -35,6 +35,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-bars"></i> Browse Courses
                         </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JS</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4 col-sx-4  put-center">
@@ -73,10 +78,20 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
                             <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Home Page</a>
+                                        <a href="#">Home Page</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Home Page</a>
+                                        <a href="#">Home Page</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Home Page</a>
+                                        <a href="#">Home Page</a>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                     </ul>
@@ -84,10 +99,23 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course</a>
                             <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Single Course</a>
+                                        <a href="#">Single Course</a>
+                                        <a href="#">Single Course</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <<a href="#">Single Course</a>
+                                            <a href="#">Single Course</a>
+                                            <a href="#">Single Course</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Single Course</a>
+                                        <a href="#">Single Course</a>
+                                        <a href="#">Single Course</a>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                     </ul>
@@ -95,10 +123,20 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Gallery</a>
+                                        <a href="#">Gallery</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Gallery</a>
+                                        <a href="#">Gallery</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Gallery</a>
+                                        <a href="#">Gallery</a>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                     </ul>
@@ -106,10 +144,20 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature</a>
                             <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Blog Single V2</a>
+                                        <a href="#">Contact V1</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Blog Single V2</a>
+                                        <a href="#">Contact V1</a>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <a href="#">Blog Single V1</a>
+                                        <a href="#">Gallery V2</a>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                     </ul>
@@ -117,10 +165,21 @@ $url_path = str_replace('\\', '/', $url_path);
                         <li class="dropdown dmenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
                             <ul class="dropdown-menu sm-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Separated link</a></li>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <li><a href="#"><i class="fa fa-fw fa-table"></i> Tables</a></li>
+                                        <li><a href="#"><i class="fa fa-fw fa-navicon"></i> Sliders</a></li>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <li><a href="#"><i class="fa fa-fw fa-table"></i> Tables</a></li>
+                                        <li><a href="#"><i class="fa fa-fw fa-navicon"></i> Sliders</a></li>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-xs-4 ">
+                                        <li><a href="#"><i class="fa fa-fw fa-table"></i> Tables</a></li>
+                                        <li><a href="#"><i class="fa fa-fw fa-navicon"></i> Sliders</a></li>
+                                    </div>
+                                </div>
+
                             </ul>
                         </li>
                     </ul>

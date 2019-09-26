@@ -82,6 +82,12 @@
 .type-550 .navbar-menu {
   color: #000000;
 }
+.type-550 .dmenu {
+  padding: 10px 0px;
+}
+.type-550 .dmenu ul a {
+  padding: 10px 10px;
+}
 .type-550 .navbar-headerTop .btn {
   background-color: #f7faf3;
   font-size: 16px;
@@ -94,14 +100,38 @@
 .type-550 .dropdown {
   font-size: 20px;
 }
+.type-550 .dropdown .dropdown-menu {
+  background: #2D2D2D;
+  padding-left: 20px;
+}
+.type-550 .dropdown .dropdown-menu a {
+  color: #fff;
+}
+.type-550 .dropdown .dropdown-menu a:hover {
+  background: none;
+  color: #82B540;
+}
 .type-550 .dropdown .active {
   color: #82B540;
 }
 .type-550 .dropdown .active a:hover {
   color: #82B540;
 }
-.type-550 .dropdown-menu {
-  background: #82b540;
+.type-550 ul li .dropdown-menu {
+  background: #2D2D2D;
+  width: 305px;
+}
+.type-550 ul li .dropdown-menu a {
+  text-decoration: none;
+  padding: 20px 0px;
+  color: #828282;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 400;
+  background-color: transparent;
+}
+.type-550 ul li .dropdown-menu a:hover {
+  color: #82B540;
 }
 @media (min-width: 480px) {
   .type-550 .ct-topBar {

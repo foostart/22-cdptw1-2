@@ -30,8 +30,7 @@
         <script src="<?php echo $url_path ?>/js/jquery-3.3.1.slim.min.js"></script>
         <script src="<?php echo $url_path ?>/js/popper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+     
        
 
     </head>

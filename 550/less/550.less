@@ -86,7 +86,13 @@
     .navbar-menu{
         color: #000000;
     }
-    
+   .dmenu{
+       padding: 10px 0px;
+        
+       ul a{
+        padding: 10px 10px;
+       }
+   } 
    
     .navbar-headerTop .btn {
         background-color: #f7faf3;
@@ -98,6 +104,17 @@
         margin-right: 10px;
     }
     .dropdown{
+        .dropdown-menu{
+            background: #2D2D2D;
+            padding-left: 20px;
+            a{
+                color: #fff;     
+            }
+            a:hover{
+                background: none;
+                color: #82B540;
+            }
+        }
         font-size: 20px;
         .active{
             color: #82B540;
@@ -106,10 +123,26 @@
             color: #82B540;
         }
     }
-    .dropdown-menu{
-        background: #82b540;
-        
+    ul li{
+        .dropdown-menu{
+            background: #2D2D2D;
+            width: 305px;    
+                a{
+                    text-decoration: none;
+                    padding: 20px 0px;
+                    color: #828282;
+                    font-size: 16px;
+                    line-height: 60px;
+                    font-weight: 400;
+                    background-color: transparent;
+                }
+                a:hover{
+                    color: #82B540;
+                }
+                
+            }
     }
+    
    
     @media (min-width: 480px) {
             .ct-topBar {

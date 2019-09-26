@@ -67,6 +67,9 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+.type-36 .menu a:hover {
+  color: #ff7f00;
+}
 .type-36 .text .text1 {
   background: #2e6da4;
   border: 1px solid #ff7f00;
