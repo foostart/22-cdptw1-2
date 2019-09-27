@@ -55,7 +55,11 @@
 }
 .type-551 .navbar-default {
   background: #ffffff;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
+}
+.type-551 .navbar-default .border-navbar {
+  border-bottom: 4px solid #000;
+  margin-bottom: 2px;
 }
 .type-551 .navbar-default .navbar-nav .hover-text .text-name {
   padding-right: 2em;

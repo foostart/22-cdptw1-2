@@ -1,91 +1,91 @@
-.type-36 .header {
+.type-555 .header {
   padding-top: 5px;
   background: #F8F9FA;
 }
-.type-36 h2 {
+.type-555 h2 {
   font-size: 18px;
 }
-.type-36 .header_contai {
+.type-555 .header_contai {
   text-align: center;
 }
-.type-36 .header_contai a {
+.type-555 .header_contai a {
   text-decoration: none;
   color: #ff7f00;
 }
-.type-36 .header_contai a:hover {
+.type-555 .header_contai a:hover {
   color: #000;
 }
-.type-36 .header_contai2 {
+.type-555 .header_contai2 {
   text-align: center;
 }
-.type-36 .header_contai2 .fa {
+.type-555 .header_contai2 .fa {
   font-size: 22px;
   margin-right: 5px;
   color: #ff7f00;
 }
-.type-36 .header_contai2 a {
+.type-555 .header_contai2 a {
   padding: 0 10px;
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-.type-36 .title {
+.type-555 .title {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.type-36 .title1 .fa-bars {
+.type-555 .title1 .fa-bars {
   float: left;
   border: 1px solid #ccc;
   padding: 12px;
   margin-top: 20px;
 }
-.type-36 .title1 .fa-bars:hover {
+.type-555 .title1 .fa-bars:hover {
   background: #ff7f00;
 }
-.type-36 .title1 h2 {
+.type-555 .title1 h2 {
   margin-top: 20px;
   float: left;
   border: 1px solid #ccc;
   padding: 9.3px 30px;
 }
-.type-36 .type-36 .title2 {
+.type-555 .type-555 .title2 {
   margin-left: 246px;
 }
-.type-36 .title2 {
+.type-555 .title2 {
   text-align: center;
 }
-.type-36 .title2 a {
+.type-555 .title2 a {
   color: #ff7f00;
   text-decoration: none;
 }
-.type-36 .title2 h1 {
+.type-555 .title2 h1 {
   font-size: 57px;
   color: #2e6da4;
   margin-top: 5px;
 }
-.type-36 .menu ul li {
+.type-555 .menu ul li {
   padding-left: 25px;
   padding-right: 25px;
 }
-.type-36 .menu a:hover {
+.type-555 .menu a:hover {
   color: #ff7f00;
 }
-.type-36 .text .text1 {
+.type-555 .text .text1 {
   background: #2e6da4;
   border: 1px solid #ff7f00;
   padding: 20px 20px;
 }
-.type-36 .text .text2 {
+.type-555 .text .text2 {
   background: #2e6da4;
   border: 1px solid #ff7f00;
   padding: 20px 20px;
 }
 @media screen and (max-width: 767px) {
-  .type-36 .title2 {
+  .type-555 .title2 {
     margin-top: -70px;
     float: right;
   }
-  .type-36 #collapsibleNavId {
+  .type-555 #collapsibleNavId {
     position: absolute;
     background: #F8F9FA;
     top: 3.5rem;

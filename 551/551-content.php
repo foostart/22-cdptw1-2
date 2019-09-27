@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse border-navbar ">
                 <ul class="nav navbar-nav">
                     <li class="dropdown menu-large hover-text">
                         <a href=" #" class="dropdown-toggle active text-name" data-toggle="dropdown"> WOMEN</a>
@@ -299,8 +299,4 @@ $url_path = str_replace('\\', '/', $url_path);
 
         </div>
     </div>
-
-
-
-
 </div>

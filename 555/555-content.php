@@ -7,7 +7,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="type-36">
+<div class="type-555">
     <div class="container">
         <div class="header">
             <div class="row">
@@ -35,7 +35,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12 ">
                 <div class="title2">
-                    <h1><a href="#">a</a>neue</h1>
+                    <h1><a href="#">a</a>neue.</h1>
                 </div>
             </div>
         </div>
